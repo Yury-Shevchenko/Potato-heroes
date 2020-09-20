@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Potato heroes",
+    "slug": "potato",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "potato",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#70c1de"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.js.potato",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "org.js.potato",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+    },
+    "primaryColor": "#70c1de",
+  }
+}
